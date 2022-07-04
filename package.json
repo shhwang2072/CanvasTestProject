@@ -1,0 +1,16 @@
+{
+  "name": "canvastestproject",
+  "version": "1.0.0",
+  "description": "Drawing Canvas",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hello Canvas World!"
+  },
+  "keywords": [
+    "Canvas",
+    "Test",
+    "Project"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -5,14 +5,23 @@
         <meta name="viewport" content="width=devicce-width, initail-scale=1.0">
         <title>Document</title>
         <script type="text/javascript" defer src="index.js"></script> <!-- 같은 경로에 위치함 --> 
+        <script type="text/javascript" defer src="test.js"></script> <!-- 같은 경로에 위치함 --> 
+        <script type="text/javascript" defer src="createCanvas.js"></script> <!-- 같은 경로에 위치함 --> 
+        <style type="text/css">
+            canvas { border: 1px solid black; }
+        </style>
     </head>
     <body>
         <p> Hello Canvas World! </p>
         <canvas id="canvas"></canvas>
+        <canvas id="canvas2"></canvas>
+        <canvas id="canvas3"></canvas>
         <script type="text/javascript">
             window.onload = function() {
-                drawCanvas();
+                Draw.draw_createLinearGradient();
             }
         </script>
+        <button onclick="testsum(4,5)"></button>
+        <button onclick="draw_fill()"></button>
     </body>
 </html>
